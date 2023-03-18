@@ -21,7 +21,7 @@ Please make sure to send your code base repo link to ```narek_hovsepyan@epam.com
 ## Frontend requirements
 
 We need to have application for finding the routes. 
-Please refer to design https://www.figma.com/file/kLMyHzw6cTLRtHduJigOqU/trafic-admin?node-id=1%3A985&t=fvjLLurh5pSrNem2-0
+Please refer to design https://www.figma.com/file/kLMyHzw6cTLRtHduJigOqU/trafic-admin?node-id=1%3A98  5&t=fvjLLurh5pSrNem2-0
 
 We need to have 3 pages on each of them we need to have different functionalities.
 We need to navigate between the pages without reloading the page.

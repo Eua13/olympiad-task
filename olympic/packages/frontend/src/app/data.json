@@ -1,0 +1,330 @@
+{
+    "route" :[
+        {
+            "id":1,
+            "route_id": 1,
+            "order_number": 1,
+            "workload_index":60,
+            "usage_index":80,
+            "start_date":"2023-03-15",
+            "end_date":"2023-03-17",
+            "address_id":1
+        },
+
+        {
+            "id":2,
+            "route_id": 1,
+            "order_number": 2,
+            "workload_index":40,
+            "usage_index":60,
+            "start_date":"2023-03-18",
+            "end_date":"2023-03-20",
+            "address_id":3
+        },
+        {
+            "id":3,
+            "route_id": 1,
+            "order_number": 3,
+            "workload_index":20,
+            "usage_index":40,
+            "start_date":"2023-03-21",
+            "end_date":"2023-03-23",
+            "address_id":5
+        },
+        {
+            "id":4,
+            "route_id": 1,
+            "order_number": 4,
+            "workload_index":80,
+            "usage_index":90,
+            "start_date":"2023-03-24",
+            "end_date":"2023-03-26",
+            "address_id":6
+        },
+        {
+            "id":5,
+            "route_id": 1,
+            "order_number": 5,
+            "workload_index":70,
+            "usage_index":70,
+            "start_date":"2023-03-27",
+            "end_date":"2023-03-29",
+            "address_id":10
+        },
+        {
+            "id":6,
+            "route_id": 1,
+            "order_number": 6,
+            "workload_index":50,
+            "usage_index":50,
+            "start_date":"2023-03-30",
+            "end_date":"2023-04-01",
+            "address_id":12
+        },
+        {
+            "id":8,
+            "route_id": 2,
+            "order_number": 1,
+            "workload_index":30,
+            "usage_index":50,
+            "start_date":"2023-03-15",
+            "end_date":"2023-03-18",
+            "address_id":2
+        },
+        {
+            "id":9,
+            "route_id": 2,
+            "order_number": 2,
+            "workload_index":40,
+            "usage_index":70,
+            "start_date":"2023-03-18",
+            "end_date":"2023-03-20",
+            "address_id":4
+        },
+        {
+            "id":10,
+            "route_id": 2,
+            "order_number": 3,
+            "workload_index":90,
+            "usage_index":90,
+            "start_date":"2023-03-21",
+            "end_date":"2023-03-23",
+            "address_id":6
+        },
+        {
+            "id":11,
+            "route_id": 2,
+            "order_number": 4,
+            "workload_index":60,
+            "usage_index":80,
+            "start_date":"2023-03-24",
+            "end_date":"2023-03-26",
+            "address_id":8
+        },
+        {
+            "id":12,
+            "route_id": 2,
+            "order_number": 5,
+            "workload_index":50,
+            "usage_index":60,
+            "start_date":"2023-03-27",
+            "end_date":"2023-03-29",
+            "address_id":12
+        },
+        {
+            "id":13,
+            "route_id": 2,
+            "order_number": 6,
+            "workload_index":70,
+            "usage_index":70,
+            "start_date":"2023-03-30",
+            "end_date":"2023-04-01",
+            "address_id":14
+        },
+        {
+            "id":14,
+            "route_id": 2,
+            "order_number": 7,
+            "workload_index":30,
+            "usage_index":40,
+            "start_date":"2023-04-02",
+            "end_date":"2023-04-04",
+            "address_id":1
+        },
+        {
+            "id":15,
+            "route_id": 3,
+            "order_number": 1,
+            "workload_index":50,
+            "usage_index":60,
+            "start_date":"2023-03-15",
+            "end_date":"2023-03-17",
+            "address_id":3
+        }
+        ,
+        {
+            "id":100,
+            "route_id": 1001,
+            "order_number": 1,
+            "workload_index":10,
+            "usage_index":20,
+            "start_date":"2022-01-01",
+            "end_date":"2022-01-05",
+            "address_id":100
+        },
+        {
+            "id":101,
+            "route_id": 1001,
+            "order_number": 2,
+            "workload_index":20,
+            "usage_index":30,
+            "start_date":"2022-01-06",
+            "end_date":"2022-01-10",
+            "address_id":101
+        },
+        {
+            "id":102,
+            "route_id": 1002,
+            "order_number": 1,
+            "workload_index":15,
+            "usage_index":25,
+            "start_date":"2022-01-02",
+            "end_date":"2022-01-06",
+            "address_id":102
+        },
+        {
+            "id":103,
+            "route_id": 1002,
+            "order_number": 2,
+            "workload_index":25,
+            "usage_index":35,
+            "start_date":"2022-01-07",
+            "end_date":"2022-01-11",
+            "address_id":102
+        },
+        {
+            "id":104,
+            "route_id": 1003,
+            "order_number": 1,
+            "workload_index":5,
+            "usage_index":15,
+            "start_date":"2022-01-03",
+            "end_date":"2022-01-07",
+            "address_id":100
+        },
+        {
+            "id":105,
+            "route_id": 1003,
+            "order_number": 2,
+            "workload_index": 15,
+            "usage_index":25,
+            "start_date":"2022-01-08",
+            "end_date":"2022-01-12",
+            "address_id":101
+        }
+    ],
+    "address" : [
+        {
+            "id": 1,
+            "street_name": "Main Street",
+            "building_no": "1A",
+            "city_name": "New York"
+        },
+        {
+            "id": 2,
+            "street_name": "Broadway",
+            "building_no": "25",
+            "city_name": "Los Angeles"
+        },
+        {
+            "id": 3,
+            "street_name": "Park Avenue",
+            "building_no": "100",
+            "city_name": "San Francisco"
+        },
+        {
+            "id": 4,
+            "street_name": "King Street",
+            "building_no": "12B",
+            "city_name": "Chicago"
+        },
+        {
+            "id": 5,
+            "street_name": "Elm Street",
+            "building_no": "2C",
+            "city_name": "Boston"
+        },
+        {
+            "id": 6,
+            "street_name": "First Street",
+            "building_no": "3",
+            "city_name": "Seattle"
+        },
+       
+        {
+            "id": 7,
+            "street_name": "Main Boulevard",
+            "building_no": "3c",
+            "city_name": "Houston"
+        },
+        {
+            "id": 8,
+            "street_name": "Central Street",
+            "building_no": "8",
+            "city_name": "Dallas"
+        },
+        {
+            "id": 9,
+            "street_name": "Washington Street",
+            "building_no": "100",
+            "city_name": "Miami"
+        },
+        {
+            "id": 10,
+            "street_name": "Pine Street",
+            "building_no": "22",
+            "city_name": "Denver"
+        },
+        {
+            "id": 11,
+            "street_name": "Sunset Boulevard",
+            "building_no": "10",
+            "city_name": "Las Vegas"
+        },
+        {
+            "id": 12,
+            "street_name": "Garden Street",
+            "building_no": "5",
+            "city_name": "Atlanta"
+        },
+        {
+            "id": 13,
+            "street_name": "Maple Avenue",
+            "building_no": "40",
+            "city_name": "Philadelphia"
+        },
+        {
+            "id": 14,
+            "street_name": "Ocean Drive",
+            "building_no": "17",
+            "city_name": "San Diego"
+        },
+        {
+            "id": 15,
+            "street_name": "Market Street",
+            "building_no": "7",
+            "city_name": "Washington DC"
+        },
+        {
+            "id": 100,
+            "street_name": "Main Street",
+            "building_no": "123",
+            "city_name": "New York"
+        },
+        {
+            "id": 101,
+            "street_name": "Elm Street",
+            "building_no": "456",
+            "city_name": "Los Angeles"
+        },
+        {
+            "id": 102,
+            "street_name": "Maple Street",
+            "building_no": "789",
+            "city_name": "Chicago"
+        },
+        {
+            "id": 103,
+            "street_name": "Washington Ave",
+            "building_no": "321",
+            "city_name": "Boston"
+        },
+        {
+            "id": 104,
+            "street_name": "Jefferson St",
+            "building_no": "654",
+            "city_name": "Miami"
+        }
+
+    ]
+}

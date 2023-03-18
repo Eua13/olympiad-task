@@ -1,1 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); /* default/main font-family */
+@import url('https://fonts.cdnfonts.com/css/proxima-nova-2'); /* _PRIMARY_ table/list font-family  */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&family=Poppins&display=swap'); /* _SECONDARY_ table/list font-family */

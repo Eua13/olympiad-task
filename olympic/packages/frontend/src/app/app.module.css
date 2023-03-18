@@ -1,1 +1,38 @@
 /* Your styles goes here. */
+article{
+    width:clamp(200px,50%,600px);
+}
+.main-container {
+    font-family: 'poppins',sans-serif;
+}
+.main-container__search-bar {
+border-radius: 10px;
+background: #E2E2EA;
+border-color: hsla(240, 18%, 90%, 0.336);
+border: 1px solid #E2E2EA
+}
+.main-container__header {
+    font-weight: 800;
+}
+
+.search-bar--icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 0.5rem;
+}
+
+.face-page__container__aside{
+display:flex;
+
+border-radius: 0px;
+
+
+background: #FFFFFF;
+box-shadow: inset -1px 0px 0px #E2E2EA;
+}
+
+
+.main-container__search-bar-container {
+    position: relative;
+}
